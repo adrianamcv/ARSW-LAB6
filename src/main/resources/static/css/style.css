@@ -1,0 +1,17 @@
+.principal{
+  height: 20%;
+  width: 99%;
+  margin: 1% 1%;
+}
+
+.contenedorTabla{
+  width: 48%;
+  height: 99%;
+  margin: 1% 1%;
+  float: left;
+}
+
+.table{
+  width: 98%;
+  text-align:center;
+}

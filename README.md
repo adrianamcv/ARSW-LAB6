@@ -26,6 +26,8 @@
     }               
     ```
 
+![](img/1.PNG)
+
 ## Front-End - Vistas
 
 1. Cree el directorio donde residirá la aplicación JavaScript. Como se está usando SpringBoot, la ruta para poner en el mismo contenido estático (páginas Web estáticas, aplicaciones HTML5/JS, etc) es:  
@@ -35,6 +37,14 @@
     ```
 
 4. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo en donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
+
+![](img/2.PNG)
+
+En el código anterior realizamos un formulario que contiene un elemento de entrada y un botón para consultar los planos de un autor.
+
+Una vez se realiza la consulta se muestra una tabla con los puntos que posee y el detalle de los planos. El código de esta tabla es el siguiente:
+
+![](img/3.PNG)
 
 5. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
     ```html
@@ -49,6 +59,7 @@
           href="/webjars/bootstrap/4.1.2/css/bootstrap.min.css" />
     ```
 
+![](img/4.PNG)
 
 5. Suba la aplicación (mvn spring-boot:run), y rectifique:
     1. Que la página sea accesible desde:
@@ -56,6 +67,8 @@
     http://localhost:8080/index.html
     ```
     2. Al abrir la consola de desarrollador del navegador, NO deben aparecer mensajes de error 404 (es decir, que las librerías de JavaScript se cargaron correctamente).
+
+![](img/6.PNG)
 
 ## Front-End - Lógica
 
