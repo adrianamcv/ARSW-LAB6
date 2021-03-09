@@ -1,17 +1,36 @@
-.principal{
+principal{
   height: 20%;
   width: 99%;
   margin: 1% 1%;
 }
 
-.contenedorTabla{
+.contenedortabla{
   width: 48%;
   height: 99%;
   margin: 1% 1%;
   float: left;
 }
 
+.contenedorcanvas{
+  width: 48%;
+  height: 99%;
+  margin: 1% 1%;
+  float: right;
+  text-align:center;
+}
+
 .table{
   width: 98%;
   text-align:center;
+}
+
+.myCanvas {
+  width:38vw;
+  height:27vw;
+  border:1px solid #000000;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
